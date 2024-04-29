@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>Programming Guidelines</title>
+      <link>https://www.grifols.com</link>
+      <description>Últimas 10 notas on Programming Guidelines</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>010 - Prefijos</title>
+    <link>https://www.grifols.com/001---Naming/010---Prefijos</link>
+    <guid>https://www.grifols.com/001---Naming/010---Prefijos</guid>
+    <description>Para agilizar la interpretación del programa, se definen unos prefijos en las variables que ayudan a identificarlas y reconocer de que tipo son. A continuación se detallan los diferentes campos donde se aplica.</description>
+    <pubDate>Sun, 28 Apr 2024 22:37:17 GMT</pubDate>
+  </item><item>
+    <title>011 - Alias</title>
+    <link>https://www.grifols.com/001---Naming/011---Alias</link>
+    <guid>https://www.grifols.com/001---Naming/011---Alias</guid>
+    <description>Con el fin de poder compartir rutinas de forma más practica, y de reducir la longitud de los tags, se debe referenciar las estructuras mayores más habituales usando los Alias 01 ...</description>
+    <pubDate>Sun, 28 Apr 2024 22:34:46 GMT</pubDate>
+  </item><item>
+    <title>001 - Introducción</title>
+    <link>https://www.grifols.com/001---Naming/001---Introducci%C3%B3n</link>
+    <guid>https://www.grifols.com/001---Naming/001---Introducci%C3%B3n</guid>
+    <description>002 - Nomenclatura 010 - Prefijos 011 - Alias XXX - Station.</description>
+    <pubDate>Sun, 28 Apr 2024 22:33:33 GMT</pubDate>
+  </item><item>
+    <title>002 - Nomenclatura</title>
+    <link>https://www.grifols.com/001---Naming/002---Nomenclatura</link>
+    <guid>https://www.grifols.com/001---Naming/002---Nomenclatura</guid>
+    <description>01. Dispositivos del Hardware Los dispositivos del hardware en la lista de Devices Explorer deben ser nombrados con el código eléctrico identificativo.</description>
+    <pubDate>Sun, 28 Apr 2024 21:13:08 GMT</pubDate>
+  </item><item>
+    <title>Home</title>
+    <link>https://www.grifols.com/</link>
+    <guid>https://www.grifols.com/</guid>
+    <description>Guía de Programación de Grifols Engineering, S.A. Introducción 1 Introducción 2 Introducción 3.</description>
+    <pubDate>Sun, 28 Apr 2024 20:55:41 GMT</pubDate>
+  </item><item>
+    <title>IT Naming (revisar)</title>
+    <link>https://www.grifols.com/IT-Naming-(revisar)</link>
+    <guid>https://www.grifols.com/IT-Naming-(revisar)</guid>
+    <description>Naming Convenction Según IT: Site+dpto+building+machineID+deviceType+# **PLIND-P7-12345678-**HMI Según GE PF: Site+dpto+building+machineID+deviceID+deviceType+# ...</description>
+    <pubDate>Sun, 28 Apr 2024 18:36:40 GMT</pubDate>
+  </item><item>
+    <title>Introducción</title>
+    <link>https://www.grifols.com/Carpeta-1/Introducci%C3%B3n</link>
+    <guid>https://www.grifols.com/Carpeta-1/Introducci%C3%B3n</guid>
+    <description>Esto es una introducción para la carpeta 1 Pulsa aquí para ver más Desarrollo.</description>
+    <pubDate>Sat, 27 Apr 2024 23:18:15 GMT</pubDate>
+  </item><item>
+    <title>Introducción</title>
+    <link>https://www.grifols.com/Carpeta-2/Introducci%C3%B3n</link>
+    <guid>https://www.grifols.com/Carpeta-2/Introducci%C3%B3n</guid>
+    <description>Esto es una introducción para la carpeta 2.</description>
+    <pubDate>Sat, 27 Apr 2024 21:35:04 GMT</pubDate>
+  </item><item>
+    <title>Desarrollo</title>
+    <link>https://www.grifols.com/Carpeta-1/Desarrollo</link>
+    <guid>https://www.grifols.com/Carpeta-1/Desarrollo</guid>
+    <description>Titulo 1 Contenido Titulo 2 Subtitulo Contenido adicional.</description>
+    <pubDate>Sat, 27 Apr 2024 17:26:47 GMT</pubDate>
+  </item><item>
+    <title>Introducción</title>
+    <link>https://www.grifols.com/003---Sequences/Introducci%C3%B3n</link>
+    <guid>https://www.grifols.com/003---Sequences/Introducci%C3%B3n</guid>
+    <description>Esto es una introducción para la carpeta 3.</description>
+    <pubDate>Sat, 27 Apr 2024 17:26:12 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
