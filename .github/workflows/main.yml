@@ -6,25 +6,31 @@ on:
 
 jobs:
   build_and_deploy:
-    runs-on: ubuntu-latest
+    if: ${{ github.repository == 'KenfuQnK/test-programming' }}
+    strategy:
+      matrix:
+        os: [windows-latest, macos-latest, ubuntu-latest]
+    runs-on: ${{ matrix.os }}
+    permissions:
+      contents: write
     steps:
-      - name: Checkout 🛎️
-        uses: actions/checkout@v2.3.4
+      - name: Checkout
+        uses: actions/checkout@v3
 
-      - name: Setup Node.js environment 🗳️
-        uses: actions/setup-node@v2.4.0
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v3
         with:
-          node-version: '21.6.1'
+          node-version: '18'
 
-      - name: Cache dependencies ⏲️
-        uses: actions/cache@v2.1.6
+      - name: Cache dependencies
+        uses: actions/cache@v3
         with:
           path: ~/.npm
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
 
-      - name: Install and Build 🔧
+      - name: Install and Build
         run: |
           npm ci
           npx quartz build
