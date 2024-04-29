@@ -1,0 +1,54 @@
+@use "./base.scss";
+
+// put your custom CSS here!
+
+.page>#quartz-body .sidebar{
+    margin-top: 3rem; //override original
+}
+
+.page .page-header{
+    margin: 3rem auto 0; //override original
+}
+
+
+.popover-hint h1 {
+    border-bottom: 1px solid var(--lightgray);
+    padding-bottom: 8px; /* Ajusta este valor según tus necesidades */
+}
+
+.callout p {
+    margin: 8px 0; 
+  }
+
+.callout .callout-title {
+    cursor: pointer;
+}  
+
+.callout ul li::marker {
+    color: var(--color); 
+    // color: rgba(0, 0, 0, 0.6);
+}
+
+#explorer-content ul.overflow{
+    max-height: 60vh;
+}
+
+/* Esto afecta a la barra de desplazamiento en todo el documento */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Estilo del track (la "pista" por donde se desplaza el thumb) */
+::-webkit-scrollbar-track {
+    background: var(--lightgray);
+}
+
+/* Estilo del thumb (la parte móvil de la barra de desplazamiento) */
+::-webkit-scrollbar-thumb {
+    background: var(--gray); 
+}
+
+/* Cambia el color del thumb al pasar el ratón por encima */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
