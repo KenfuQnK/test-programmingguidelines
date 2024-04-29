@@ -6,7 +6,7 @@ on:
 
 jobs:
   build_and_deploy:
-    if: ${{ github.repository == 'KenfuQnK/test-programming' }}
+    if: ${{ github.repository == 'KenfuQnK/test-programmingguidelines' }}
     strategy:
       matrix:
         os: [windows-latest, macos-latest, ubuntu-latest]
