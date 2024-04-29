@@ -1,0 +1,32 @@
+name: Build and Deploy
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2.3.4
+
+      - name: Setup Node.js environment 🗳️
+        uses: actions/setup-node@v2.4.0
+        with:
+          node-version: '21.6.1'
+
+      - name: Cache dependencies ⏲️
+        uses: actions/cache@v2.1.6
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Install and Build 🔧
+        run: |
+          npm ci
+          npx quartz build
+
+      # Aquí puedes agregar los pasos para desplegar tu sitio, si es necesario.
