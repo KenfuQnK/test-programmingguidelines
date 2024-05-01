@@ -10,7 +10,6 @@
     margin: 3rem auto 0; //override original
 }
 
-
 .popover-hint h1 {
     border-bottom: 1px solid var(--lightgray);
     padding-bottom: 8px; /* Ajusta este valor según tus necesidades */
@@ -51,4 +50,10 @@
 /* Cambia el color del thumb al pasar el ratón por encima */
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
+}
+
+blockquote {   
+  background-color: color-mix(in srgb, var(--secondary) 3%, skyblue 10%);
+  border-radius: 3px;
+  padding: 2px 1px 1px 20px; 
 }

@@ -17,7 +17,7 @@ Las entradas y salidas deben declararse en _ControllerTags_ y se identificaran c
 
 Seguido del prefijo hay que indicar el módulo ``ModX`` al que pertenece. A continuación se debe acompañar una barra baja y el nombre de la entrada/salida a título descriptivo.
 
-> _prefijo + ModX + _ + IOName_
+> **prefijo + ModX + _ + IOName**
 
 En el nombre de la variable **NO** hay que escribir el código eléctrico identificador del sensor; ese código debe ser introducido en el campo _Description_, para que quede constancia de la relación y además pueda ser filtrado en las búsquedas.
 
@@ -29,13 +29,12 @@ En el nombre de la variable **NO** hay que escribir el código eléctrico identi
 
 Los ejes deben llamarse con el prefijo ``ax`` y el módulo al que corresponden ``ModX`` seguidamente de una barra baja y la correspondiente referencia a la estación donde se usa y al nombre del propio eje.
 
-> ***ax + ModX + _ + Station + ServoName
+> **ax + ModX + _ + Station + ServoName**
 
 > [!example]+ Ejemplo
-> axMod1_FillingPump1  
-> axMod2_TransferStarwheel  
+> _axMod1_FillingPump1_  
+> _axMod2_TransferStarwheel_  
 
-El _MotionGroup_ debe llamarse siempre igual en todas las máquinas:
-==XXXX
+El _MotionGroup_ debe llamarse siempre igual en todas las máquinas: **==XXXX==**
 
 
